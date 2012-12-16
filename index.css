@@ -1,0 +1,36 @@
+/* 
+    Document   : index.css
+    Created on : Dec 15, 2012, 5:22:49 PM
+    Author     : barobba
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.mytoolbar .widget .button {
+  padding: .25em .5em;
+  margin: 2px;
+  border: 1px solid #bbb;
+  display: inline-block;
+  cursor: pointer;
+}
+
+table.layout {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.layout td.layout {
+  padding: 0px;
+  vertical-align: top;
+}
+
+.contentLog-panel {
+  border: 2px solid #bbb;
+  padding: .5em;
+  margin-right: .25em;
+  height: 16em;
+  overflow: scroll;
+}
+
+table.layout td.layout:last-child .contentLog-panel {
+  margin-right: 0px;
+}

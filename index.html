@@ -1,0 +1,19 @@
+<script type="text/javascript" src="jQuery/jquery.js"></script>
+<script type="text/javascript" src="kbToolbar/kbToolbar.js"></script>
+<style type="text/css" media="all">@import url("index.css");</style>
+
+<h2>Keyboard Toolbar</h2>
+<div class="mytoolbar">
+  <div class="widget"></div>
+  <script class="button-template" type="text/x-template">
+    <span class="button" title="REPLACEMENT-TEXT">DISPLAY-TEXT</span>
+  </script>
+  <script type="text/javascript">
+    var toolbarData = [{"title":"Upper case","characters":["\u00c1","A\u019e","C\u0304","\u010a","\u00c9","\u0120","\u1e22","\u00cd","I\u019e","K\u0304","K\u0307","\u00d3","P\u0304","\u1e56","\u1e60","T\u0304","\u1e6a","\u00da","U\u019e"]},{"title":"Lower case","characters":["\u00e1","a\u019e","c\u0304","\u010b","\u00e9","\u0121","\u1e23","\u00ed","i\u019e","k\u0304","k\u0307","\u00f3","p\u0304","\u1e57","\u1e61","t\u0304","\u1e6b","\u00fa","u\u019e"]}];
+    kbToolbar('.mytoolbar', toolbarData);
+  </script>
+</div>
+
+<h2>Fields</h2>
+<div><input type="text" /></div>
+<div><textarea></textarea></div>
